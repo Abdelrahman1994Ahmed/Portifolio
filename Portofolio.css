@@ -10,13 +10,15 @@
   z-index: 1;
 }
 .mainback-stl{
-  background-image: url(https://www.egypttoursportal.com/images/2021/04/Ancient-Egyptian-Art-Egypt-Tours-Portal.jpg);
+  /* background-image: url(./Images/Abdi.png);
   background-size: cover;
-  top: 0vh;
-  width: 100%;
+  top: 10vh;
+  width: 100%; */
+  background-color: #727878;
 }
 .man-bckg-stl{
   border-bottom: 3px solid;
+  background-color: #06321366;
 }
 .intro-stl{
   height: fit-content;
@@ -24,15 +26,15 @@
 /* .intro-stl{
   background-color: rgba(164, 158, 158, 0.381);
 } */
-.intro-bckg-stl{
+/* .intro-bckg-stl{
   background-color: rgba(164, 158, 158, 0.381);
-}
+} */
 .introname-stl{
   color: yellowgreen;
   font-family: "Ubuntu", sans-serif;
   font-weight: 900;
   font-style: italic;
-  background-color: #00008bab;
+  /* background-color: #00008bab; */
   border-radius: 15px 0px 15px 0px;
 }
 .introtitl-stl{
@@ -40,7 +42,7 @@
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-  background-color: #00008bab;
+  /* background-color: #00008bab; */
   border-radius: 15px 0px 15px 0px;
 }
 .cont-stl{
@@ -70,7 +72,7 @@
   font-family: 'Pacifico';
 }
 .titl-stl{
-  color: #af1010;
+  color: chartreuse;
   font-size: 5vw;
   font-family: "Sixtyfour", sans-serif;
   font-optical-sizing: auto;
@@ -88,6 +90,15 @@
   font-weight: 700;
   font-style: normal;
   width: 25%;
+}
+.who-img{
+  width: 45%;
+  border: 5px;
+  border-radius: 50%;
+  border-color: #90a52a;
+  border-style: outset;
+  border-top: hidden;
+  border-bottom: hidden;
 }
 .cvbtn-stl{
   background-color: #06154ade;
@@ -311,8 +322,6 @@
   align-items: center;
   justify-content: space-around;
 }
-
-
 .pic-ctn {
   width: 80vw;
   height: 200px;
@@ -673,13 +682,84 @@ img:nth-child(5) {
     background-color: white;
   }
 }
-
-
-
 .sec-brk2-stl{
   padding: 5vh 0vw 5vh 0vw;
   background-color: #176dc365;
   border-radius: 0px 0px 15px 15px;
+}
+.sec-skill-stl{
+  background: #ff7e5f;
+  /* background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b); */
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+}
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress .progress-left {
+  left: 0;
+}
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+.progress .progress-right {
+  right: 0;
+}
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rounded-lg {
+  border-radius: 1rem;
+}
+.text-gray {
+  color: #aaa;
+}
+div.h4 {
+  line-height: 1rem;
 }
 .fot-main-stl{
   background-color: #bef50cb0 !important;
